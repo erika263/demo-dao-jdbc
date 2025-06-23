@@ -3,6 +3,7 @@ package model.enities;
 import java.io.Serializable;
 import java.util.Objects;
 
+@SuppressWarnings("unused")
 public class Department  implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
