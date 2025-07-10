@@ -18,6 +18,8 @@ public class DB {
 			try {
 				Properties props = loadProperties();
 				String url = props.getProperty("dburl");
+				
+				
 				conn = DriverManager.getConnection(url, props);
 			}
 			catch (SQLException e) {
